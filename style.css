@@ -1,0 +1,60 @@
+body {
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-container {
+    color: black;
+    background-color: lemonchiffon;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.image-grid-container {
+    display: flex;
+    background-color: aliceblue;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    max-width: 900 px;
+    align-items: center;
+  
+}
+
+.image-grid {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+
+
+}
+
+
+.images-grid-item {
+  
+   display: flex;
+  justify-content: center;
+  
+}
+.footer-container {
+    color: black;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-menu {
+    width: 900px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+  }
+
